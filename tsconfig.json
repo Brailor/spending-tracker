@@ -5,5 +5,12 @@
         "esModuleInterop": true,
         "sourceMap": true,
         "allowSyntheticDefaultImports": true,
-    }
+        "isolatedModules": true,
+        "declaration": true,
+        "declarationMap": true,
+        "baseUrl": "./packages",
+        "paths": {
+            "@spending-tracker-shared": ["shared/src"]
+        }
+    },
 }

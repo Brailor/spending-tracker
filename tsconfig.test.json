@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./packages",
+        "paths": {
+            "@spending-tracker-shared": ["shared/src"]
+        }
+    },
+    "files": [],
+    "references": [{
+         "path": "./packages/shared" 
+    }]
+}
